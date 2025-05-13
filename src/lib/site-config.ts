@@ -2,11 +2,12 @@ export const siteConfig = {
   name: "Ogam Bathlomew",
   description:
     "Portfolio of Ogam Bathlomew, Applied Statistics student with focus on biological research",
-  email: "ogam.bathlomew@example.com",
+  email: "ogambathlomew4@gmail.com",
   links: {
-    github: "https://github.com/ogambathlomew",
-    linkedin: "https://linkedin.com/in/ogambathlomew",
-    twitter: "https://x.com/ogambathlomew",
+    facebook: "https://www.facebook.com/profile.php?id=100087551821114",
+    linkedin: "https://linkedin.com/in/ogam-bathlomew-673561365",
+    tiktok: "https://tiktok.com/@og_governor1",
+    twitter: "https://x.com/OgLaktarr?t=rIrV4O2KNruSa1TpWz6f6Q&s=08",
     whatsapp: "https://wa.me/254757845333?text=Hi%20ogam",
   },
   navItems: [
