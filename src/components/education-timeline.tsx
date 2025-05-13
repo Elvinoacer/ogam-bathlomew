@@ -27,7 +27,7 @@ export default function EducationTimeline() {
       {/* Timeline line */}
       <div className="absolute left-5 top-0 h-full w-0.5 bg-gray-200 dark:bg-gray-700"></div>
 
-      {educationData.map((item, index) => (
+      {educationData.map((item) => (
         <div key={item.id} className="relative pl-16 pb-8">
           {/* Icon */}
           <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/50 shadow-md">

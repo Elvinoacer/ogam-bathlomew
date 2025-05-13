@@ -20,13 +20,14 @@ export default function ContactForm() {
     formState: { errors, isSubmitting },
   } = useForm<FormData>();
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async () => {
     try {
-      // Replace with actual form submission logic
+      //TODO: Replace with actual form submission logic
       await new Promise((resolve) => setTimeout(resolve, 1000));
       toast.success("Message sent successfully!");
       reset();
     } catch (error) {
+      console.log(error);
       toast.error("Failed to send message. Please try again.");
     }
   };
